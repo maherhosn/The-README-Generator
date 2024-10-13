@@ -1,6 +1,6 @@
 # The README Generator
 
-      ## Description:
+## Description:
       The code allows the user to generate a profifessional README.md File, with proper indentation and content.
 
       ## Table Of Contents:
