@@ -27,30 +27,30 @@ function init() {
     const generateReadMeFile = ({ title, description, installation, usage, license, contributing, tests, username, email }) =>
         `# ${title}
 
-      ## Description:
-      ${description}
+## Description:
+   ${description}
 
-      ## Table Of Contents:
+## Table Of Contents:
 
-      ## Installation Guide:
-       ${installation}
+## Installation Guide:
+   ${installation}
 
-      ## Usage: 
-      ${usage}
+## Usage: 
+   ${usage}
 
-      ## License:
-      ${license}
+## License:
+   ${license}
 
-      ## Contributing:
-      ${contributing}
+## Contributing:
+   ${contributing}
 
-      ## Tests:
-      ${tests}
+## Tests:
+   ${tests}
 
-      ## Questions:
-      If you have any question please contact:
-      name: ${username}
-      email: ${email}
+## Questions:
+   If you have any question please contact:
+   name: ${username}
+   email: ${email}
       `;
 
     inquirer
