@@ -66,16 +66,17 @@ function generateMarkdown(data) {
   if(licenseSection){
     selectedLicense=`## Licence: <br>
 ${licenseSection} <br>
-  ${licenseLink} <br>
-  ${licenseBadge}`
+${licenseBadge} <br>
+${licenseLink}
+`
   linkInside = "-	[License](#license)"
   }
 
   let contributingSection ="";
   if(data.contributing == "yes"){
-    contributingSection = `If you as a developer want to contribute this project, please follow the link below to do so: <br>	
-    The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, <br> 
-    but you can always write your own if you'd prefer.`
+    contributingSection = `If you as a developer want to contribute this project, please follow the link below to do so: <br> 
+    https://www.contributor-covenant.org/ <br>
+    [Contributor Covenant] is an industry standard, but you can always write your own if you'd prefer.`
   }
   else{
     contributingSection = "No Contributions can be made to this code!"
