@@ -51,7 +51,7 @@ function init() {
                 type: 'list',
                 name: 'license',
                 message: questions[4],
-                choices: ["just to test1", "testing2", "third test option"]
+                choices: ["Apache", "Boost", "MIT","None"]
             },
             {
                 type: 'checkbox',
