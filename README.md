@@ -15,7 +15,7 @@ The code allows the user to generate a profifessional README.md File, with prope
 Clone the repository to your computer, initialize the npm using the command "npm init -y", then install the inquirer package from npm using the command "npm install inquirer".
 
 ## Usage: 
-After cloning the repository, open git bash, go to the directory and run the command "node index.js" <br> you can also follow the following video link to show you the steps it takes to run the program: <br> https://app.screencastify.com/v3/watch/PonNV1b5JTi8I9qXWMxz
+After cloning the repository, open git bash, go to the directory and run the command "node index.js" <br> you can also follow the following video link to show you the steps it takes to run the program: <br> ![Demo-Video](https://app.screencastify.com/v3/watch/PonNV1b5JTi8I9qXWMxz)
 
 ## Licence: <br>
 ### MIT <br>
